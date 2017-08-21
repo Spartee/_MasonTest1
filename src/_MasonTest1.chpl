@@ -11,7 +11,7 @@ module _MasonTest1 {
     // record initialization
     var num: int;
     proc init(num: int) {
-      var num = num;
+      this.num = num;
     }
 
     proc this() {
