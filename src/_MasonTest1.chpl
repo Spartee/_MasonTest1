@@ -7,7 +7,9 @@ module _MasonTest1 {
   // Testing records
   record Tester1 {
 
+
     // record initialization
+    var num: int;
     proc init(num: int) {
       var num = num;
     }
